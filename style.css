@@ -30,7 +30,7 @@ div{
     grid-gap:1rem;
     background-color: black;
     padding: 1rem;
-    border-radius: 5rem;
+    border-radius: 1rem 6rem 1rem  3rem;
     font-size: 1.5rem;
     text-align: center;
     align-items: center;
@@ -50,10 +50,12 @@ div{
 }
 .light{
 background-color: grey;
+border-radius: 0 70%  0 ;
 }
 
 .yellow{
-    background-color: #eca241;
+    background-color: #a05d06;
+    border-radius: 0 70%  0;
 }
 .dark{
     background-color: #343434;
@@ -68,6 +70,7 @@ background-color: grey;
      display: flex; 
     justify-content: left;
     
+    
 }
 .dark:hover{
     background-color: rgb(100, 96, 96);
@@ -78,6 +81,16 @@ background-color: grey;
 }
 .light:hover{
     background-color: rgb(100, 96, 96);
+}
+.c5{
+    /* background-color: aqua; */
+}
+.c2{
+background-color: rgb(76, 143, 143); 
+}
+.c1:hover{
+    transform: scale(1.2);
+    
 }
 
 
