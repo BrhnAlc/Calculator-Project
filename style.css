@@ -22,8 +22,8 @@ div{
 .container{
     color: white;
     text-align: center;
-    height: 650px;
-    width: 330px;
+    height: 700px;
+    width: 350px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
